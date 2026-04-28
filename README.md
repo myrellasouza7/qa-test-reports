@@ -1,4 +1,4 @@
-# qa-test-reports
+# qa-login-test-report
 Testes realizados na funcionalidade de login com foco em validação de autenticação e comportamento do sistema.
 ## Cenário de Teste
 Validação da funcionalidade de login em diferentes condições de entrada
