@@ -15,7 +15,7 @@ Validação da funcionalidade de login em diferentes condições de entrada
 
 ---
 
-### Observação: Não foi possível criar username e password no devido site, pois não tem a opção. 
+### Observação: Não foi possível criar username e password no sistema testado, pois não tem a opção. 
 
 ---
 
@@ -49,12 +49,14 @@ Descrever comportamento do sistema durante os testes
 
 ## Conclusão
 Resumo geral da funcionalidade de login
-Houveram falhas na descrição da mensagem de erro de acordo com a forma de preenchimento.
-Formas diferentes de preenchimento apresentaram a mesmaa mensagem de erro, como se apenas o username estivesse inválido, independente do campo senha estar vazio, independente de ambos os campos estarem vazios. Independente de apenas o campo username estar preenchido. 
+Durante os testes, foi identificado que o sistema não diferencia corretamente os cenários diferentes de erro na funcionalidade.
+Independente da forma de preenchimento (campos vazios, username + password incorretos, username sem password, username vazio + password), o sistema sempre retorna a mesma mensagem:
+"Your username is invalid"
+Podendo impactar negativamente na experiência do usuário, dificultando a identificação do real problema para sua devida correção.
 
 ---
 
 ## 📸 Evidências
 
-### Login válido
+### Login inválido
 Mensagem de Erro:![Login válido](https://raw.githubusercontent.com/myrellasouza7/qa-test-reports/refs/heads/main/Captura%20de%20tela%202026-04-28%20114618.png)
