@@ -14,7 +14,8 @@ Validação da funcionalidade de login em diferentes condições de entrada
 ## Cenários testados 
 
 ---
-### Observação: Não foi possível criar username e senha no devido site, pois não tem a opção. 
+
+### Observação: Não foi possível criar username e password no devido site, pois não tem a opção. 
 
 ---
 
